@@ -13,7 +13,7 @@ if ($conn->connect_error) {
     die(json_encode(['error' => 'Database connection failed']));
 }
 
-// Vamos listar ordenando por ID (opcional mas recomendado)
+
 $sql = "SELECT * FROM games ORDER BY id ASC";
 $result = $conn->query($sql);
 
@@ -21,8 +21,8 @@ $games = [];
 
 if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
-        $row['imageUrl'] = $row['image_url']; // Mapeia o campo
-        unset($row['image_url']); // Remove o antigo
+        $row['imageUrl'] = $row['image_url']; 
+        unset($row['image_url']); 
         $games[] = $row;
     }
 }
