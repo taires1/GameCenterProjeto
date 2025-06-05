@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterLink, RouterLinkActive } from '@angular/router'; // Importação correta
+import { RouterLink, RouterLinkActive } from '@angular/router'; 
 import { GameService } from '../../services/game.service';
 import { Game } from '../../models/game.model';
 import Swal from 'sweetalert2';
@@ -9,7 +9,7 @@ import Swal from 'sweetalert2';
   selector: 'app-list-games',
   standalone: true,
   imports: [
-    CommonModule,        // Já tinha
+    CommonModule,        
     
   ],
   templateUrl: './list-games.component.html',
@@ -55,7 +55,7 @@ export class ListGamesComponent implements OnInit {
               'O jogo foi excluído com sucesso.',
               'success'
             );
-            this.games = this.games.filter(game => game.id !== id); // Atualiza lista sem recarregar
+            this.games = this.games.filter(game => game.id !== id); 
           },
           error: (error) => {
             console.error('Erro ao excluir', error);

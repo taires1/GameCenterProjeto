@@ -7,7 +7,7 @@ body {
     font-family: 'Arial', sans-serif;
   }
   
-  /* Navbar */
+
   .navbar {
     background-color: #111;
     padding: 15px 0;
@@ -31,7 +31,7 @@ body {
   }
   
   .navbar a.active {
-    color: #00bfff; /* Azul claro no link ativo */
+    color: #00bfff; 
     text-decoration: underline;
   }
   

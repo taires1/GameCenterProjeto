@@ -5,6 +5,6 @@ import { ListGamesComponent } from './pages/list-games/list-games.component';
 export const routes: Routes = [
     { path: 'add', component: AddGameComponent },
     { path: 'list', component: ListGamesComponent },
-    { path: '', redirectTo: '/add', pathMatch: 'full' } // Primeiro abre o Cadastro
+    { path: '', redirectTo: '/add', pathMatch: 'full' } 
   ];
   
