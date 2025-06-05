@@ -25,7 +25,7 @@ Aplicação web para cadastro e listagem de jogos, desenvolvida com **Angular** 
 
 **Listagem de Jogos:**
 
-![Listagem de Jogos](coloque-aqui-o-link-ou-upload-da-imagem.gif)
+![Listagem de Jogos](![alt text](image.png))
 
 ## ⚙️ Como Rodar o Projeto
 
@@ -38,7 +38,7 @@ Aplicação web para cadastro e listagem de jogos, desenvolvida com **Angular** 
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/seu-repo.git
+    git clone https://github.com/taires1/GameCenterProjeto.git
     ```
 2. Acesse o diretório do projeto:
     ```bash
@@ -61,4 +61,4 @@ Aplicação web para cadastro e listagem de jogos, desenvolvida com **Angular** 
 
 ---
 
-Feito com ❤️ por [Seu Nome].
+Feito por Taires Sanches 3º Semestre ADS
