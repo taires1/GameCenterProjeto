@@ -1,59 +1,64 @@
-# Gamecenter
+# 🎮 GameCenter
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.10.
+Aplicação web para cadastro e listagem de jogos, desenvolvida com **Angular** e **PHP**.
 
-## Development server
+## 🚀 Funcionalidades
 
-To start a local development server, run:
+- Cadastro de novos jogos (Nome, Gênero, Plataforma, Desenvolvedora e Imagem).
+- Visualização dos jogos cadastrados.
+- Exclusão de jogos cadastrados.
+- Design responsivo e moderno.
 
-```bash
-ng serve
-```
+## 🛠️ Tecnologias Utilizadas
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- **Frontend**: Angular 17
+- **Backend**: PHP 8
+- **Banco de Dados**: MySQL
+- **Estilização**: CSS Flexbox + Estilo personalizado
+- **Ferramentas**: Visual Studio Code, XAMPP
 
-## Code scaffolding
+## 📸 Demonstração
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+**Cadastro de Jogos:**
 
-```bash
-ng generate component component-name
-```
+![Cadastro de Jogos](coloque-aqui-o-link-ou-upload-da-imagem.gif)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+**Listagem de Jogos:**
 
-```bash
-ng generate --help
-```
+![Listagem de Jogos](coloque-aqui-o-link-ou-upload-da-imagem.gif)
 
-## Building
+## ⚙️ Como Rodar o Projeto
 
-To build the project run:
+### Pré-requisitos:
 
-```bash
-ng build
-```
+- Node.js e Angular CLI instalados
+- Servidor local (XAMPP, WAMP, etc) com Apache e MySQL
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+### Passos:
 
-## Running unit tests
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/seu-usuario/seu-repo.git
+    ```
+2. Acesse o diretório do projeto:
+    ```bash
+    cd nome-do-projeto
+    ```
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
+4. Rode o servidor de desenvolvimento:
+    ```bash
+    ng serve
+    ```
+5. No backend (PHP), coloque os arquivos na pasta `htdocs` e configure o banco de dados.
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+6. Acesse no navegador:
+    ```
+    http://localhost:4200
+    ```
 
-```bash
-ng test
-```
+---
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Feito com ❤️ por [Seu Nome].
