@@ -21,11 +21,11 @@ Aplicação web para cadastro e listagem de jogos, desenvolvida com **Angular** 
 
 **Cadastro de Jogos:**
 
-![Cadastro de Jogos](public/img/cadastro.gif)
+![Cadastro de Jogos](https://github.com/taires1/GameCenterProjeto/blob/836d4bb9378995f28193408092619c6054a4be98/cadastro.gif)
 
 **Listagem de Jogos:**
 
-![Listagem de Jogos](public/img/listagem.gif)
+![Listagem de Jogos](https://github.com/taires1/GameCenterProjeto/blob/836d4bb9378995f28193408092619c6054a4be98/listagem.gif)
 
 ## ⚙️ Como Rodar o Projeto
 
