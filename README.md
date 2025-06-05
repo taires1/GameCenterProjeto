@@ -21,11 +21,11 @@ Aplicação web para cadastro e listagem de jogos, desenvolvida com **Angular** 
 
 **Cadastro de Jogos:**
 
-![Cadastro de Jogos](c:\Users\higor\Downloads\cadastro.gif)
+![Cadastro de Jogos](public/img/cadastro.gif)
 
 **Listagem de Jogos:**
 
-![Listagem de Jogos](c:\Users\higor\Downloads\listagem.gif)
+![Listagem de Jogos](public/img/listagem.gif)
 
 ## ⚙️ Como Rodar o Projeto
 
