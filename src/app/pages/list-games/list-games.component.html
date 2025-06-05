@@ -1,0 +1,15 @@
+<div class="container">
+    <h1>Jogos Cadastrados</h1>
+  
+    <div class="game-list">
+      <div class="game-card" *ngFor="let game of games">
+        <img [src]="game.imageUrl" [alt]="game.name" />
+        <h2>{{ game.name }}</h2>
+        <p><strong>Gênero:</strong> {{ game.genre }}</p>
+        <p><strong>Plataforma:</strong> {{ game.platform }}</p>
+        <p><strong>Desenvolvedora:</strong> {{ game.developer }}</p>
+        <button (click)="deleteGame(game.id!)">Excluir</button>
+      </div>
+    </div>
+  </div>
+  

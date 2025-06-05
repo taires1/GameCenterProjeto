@@ -1,0 +1,13 @@
+<div class="container">
+    <h1>Cadastro de Jogo</h1>
+  
+    <form (ngSubmit)="addGame()">
+      <input type="text" placeholder="Nome do Jogo" [(ngModel)]="game.name" name="name" required />
+      <input type="text" placeholder="Gênero" [(ngModel)]="game.genre" name="genre" required />
+      <input type="text" placeholder="Plataforma" [(ngModel)]="game.platform" name="platform" required />
+      <input type="text" placeholder="Desenvolvedora" [(ngModel)]="game.developer" name="developer" required />
+      <input type="text" placeholder="URL da Imagem" [(ngModel)]="game.imageUrl" name="imageUrl" required />
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+  
